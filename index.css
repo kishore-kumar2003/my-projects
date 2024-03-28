@@ -10,19 +10,25 @@ body
     justify-content: center;
     align-items: center;
     min-height: 600px; /*100vh*/
-    background-color: seagreen;
+    background: url(bgm.jpg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .login{
     width: 420px;
-    background: purple;
+    background: transparent;
+    border: 2px solid  rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
     color: #fff;
+    border-radius: 12px;
+    padding: 30px 40px;
 }
 .login h1{
     font-size: 35px;
     text-align: center;
 }
 .login .inputbox{
-    position:relative;
+    position: relative;
     width: 100%;
     height: 50px;
 
@@ -38,13 +44,56 @@ body
     border-radius: 40px;
     color:#fff;
     padding: 20px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+    
 }
 .inputbox input::placeholder{
     color: #fff;
 }
-.inputbox{
+.inputbox i{
     position: absolute;
     right: 20px;
-    transform: translate(-50%);
+    top: 25%;
+    transform: translate(-50);
     font-size: 20px;
+}
+.login .fp{
+   display: flex;
+   justify-content:space-between;
+   font-size: 14px;
+   margin: -15px 0 15px;
+}    
+.login .fp label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+.login .fp a{
+    color: #fff;
+    text-decoration: none;
+}
+.login .fp a:hover{
+    text-decoration: underline;
+}
+.login .but{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10 rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color:#333;
+    font-weight: 600
+}
+.login .register link{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px0;
+}
+.register link{
+    text-decoration: underline;
 }
