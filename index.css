@@ -70,8 +70,8 @@ body
     margin-right: 3px;
 }
 .login .fp a{
-    color: #fff;
-    text-decoration: none;
+    font-size: 50px;
+    
 }
 .login .fp a:hover{
     text-decoration: underline;
@@ -92,8 +92,16 @@ body
 .login .register link{
     font-size: 14px;
     text-align: center;
-    margin: 20px 0 15px0;
+    margin: 20px 0 15px 0;
 }
 .register link{
     text-decoration: underline;
+}
+.login .re{
+    color: #fff;
+    text-decoration: none
+}
+.login .re a:hover{
+    background-color: aqua;
+
 }
