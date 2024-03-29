@@ -17,6 +17,7 @@ body
 }
 .login{
     width: 400px;
+    height: 450px;
     background: transparent;
     border: 2px solid  rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(2px);
@@ -73,12 +74,20 @@ body
     font-weight: 600;
     padding:  10px 30px 10px 10px;
 }
-.login  #fps{
+.login .remember me{
+    display: flex;
+    align-items: center;
+    line-clamp: 55;
+    justify-content: space-between;
+}
+.login .fps{
+    display: flex;
+   
     color: #fff;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14px;
 }
-.login #fps a:hover{
+.login .fps a:hover{
     text-decoration: underline;
 }
 
