@@ -9,16 +9,17 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 600px; /*100vh*/
+    min-height:600px;
+    min-width: 100px; /*100vh*/
     background: url(bgm.jpg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
 .login{
-    width: 420px;
+    width: 320px;
     background: transparent;
     border: 2px solid  rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(2px);
     color: #fff;
     border-radius: 12px;
     padding: 30px 40px;
@@ -31,7 +32,6 @@ body
     position: relative;
     width: 100%;
     height: 50px;
-
    margin: 30px 0;
 }
 .inputbox input{
@@ -57,23 +57,24 @@ body
     right: 20px;
     top: 25%;
     transform: translate(-50);
-    font-size: 20px;
+    font-size: 25px;
 }
 .login .fp{
    display: flex;
    justify-content:space-between;
    font-size: 14px;
-   margin: -15px 0 15px;
+   margin: 15px 0 15px;
+
 }    
 .login .fp label input{
-    accent-color: #fff;
+    color: #fff;
     margin-right: 3px;
 }
-.login .fp a{
-    font-size: 50px;
-    
+.login .fsp a{
+    font-size: ;
+    text-decoration: none;
 }
-.login .fp a:hover{
+.login .fsp a:hover{
     text-decoration: underline;
 }
 .login .but{
